@@ -1,4 +1,5 @@
 syntax enable " enable syntax processing
+let mapleader="," " leader is comma
 
 set tabstop=4 " number of visual spaces for TAB
 set softtabstop=4 " number of spaces in TAB when editing
@@ -20,8 +21,6 @@ set foldenable " enable folding
 set foldlevelstart=10 " open most folds by default
 set foldnestmax=10 " 10 nested fold max
 set foldmethod=indent " fold based on indent
-
-let mapleader="," " leader is comma
 
 inoremap ii <esc>
 nmap <F5> <esc>:w<CR>: !clear;python3 %<CR>
