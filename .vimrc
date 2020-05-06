@@ -24,6 +24,7 @@ set foldmethod=indent " fold based on indent
 let mapleader="," " leader is comma
 
 inoremap ii <esc>
+nmap <F5> <esc>:w<CR>: !clear;python3 %<CR>
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
